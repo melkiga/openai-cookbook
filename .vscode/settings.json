@@ -1,0 +1,26 @@
+{
+    "black-formatter.interpreter": [
+        "${workspaceFolder}/.venv/bin/python"
+    ],
+    "black-formatter.args": [
+        "--line-length",
+        "120"
+    ],
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    "editor.formatOnSave": true,
+    "notebook.lineNumbers": "on",
+    "jupyter.notebookFileRoot": "${fileDirname}/../.",
+    "jupyter.debugJustMyCode": false,
+    "jupyter.askForKernelRestart": false,
+    "python.languageServer": "Pylance",
+    //"notebook.output.textLineLimit": 10,
+    "python.autoComplete.extraPaths": [
+        "jadc2_dev"
+    ],
+    "python.analysis.extraPaths": [
+        "jadc2_dev"
+    ],
+    "yaml.schemas": {
+        "https://raw.githubusercontent.com/DannyBen/bashly/master/schemas/strings.json": "untitled:Untitled-1"
+    }
+}
